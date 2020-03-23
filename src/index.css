@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(https://all-wallpapers.net/ws/11/1081329.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.button{
+  margin-top: 75vh;
+  margin-left: 44vw;
+ color:white;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.butt{
+  background-color: rgb(2, 7, 8);
+  color: aliceblue;
+  width: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 10px ;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: yellowgreen;
+}
+
+::-webkit-scrollbar-thumb {
+  background: dodgerblue;
 }
