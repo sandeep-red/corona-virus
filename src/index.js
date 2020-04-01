@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './index.css';
+// import App from './App';
 import Corona from './Corona'
 import * as serviceWorker from './serviceWorker';
+// import Example from './Example';
+// import Spinner from './Spinner'
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <div className="index">
     <Corona />
-  </React.StrictMode>,
+   
+    </div>
+    ,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 

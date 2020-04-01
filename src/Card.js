@@ -11,13 +11,15 @@ function Card(props){
     //         console.log(res.flag)
     //     })
     // })
+    
     return(
-        <div className = 'tc bg-light-green dib br3 pa3 ma2 grow'>
+        <div className = 'tc dib br3 pa3 ma1 grow' id="card">
             {/* <img alt="blah" src={url}></img> */}
-           <h1>{props.region}({props.country})</h1>
-           <a href={`https://www.google.com/maps/search/${props.latitude},${props.longitude}?sa=X&ved=2ahUKEwjljtTl3K3oAhUm73MBHcF9CWoQ8gEwAHoECBkQAQ`} style={{Color:"yellow"}}>see in map</a>
-           <h2>Confirmed cases: {props.cases}</h2>
+           <h1 style={{fontSize:"3vw"}}>{props.country.toUpperCase()}</h1>
+           <a href={`https://www.google.com/maps/place/${props.country}`} target='_blank' rel="noopener noreferrer" style={{Color:"yellow"}}>see in map</a>
+           <h4>Confirmed cases: {props.cases}</h4>
            <h4>Deaths: {props.deaths}</h4>
+          
         </div>
     )
 }
