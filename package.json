@@ -1,5 +1,5 @@
 {
-  "hostname": "http://sandeep-red.github.io/corona_virus_count",
+  "homepage": "http://sandeep-red.github.io/corona_virus_count",
   "name": "my-corona",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +21,8 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
